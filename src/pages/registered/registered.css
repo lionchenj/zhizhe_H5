@@ -1,0 +1,61 @@
+.reg-index img{
+  width: 100%;
+}
+.registered_code{
+  width: 60%;
+  margin: auto;
+}
+.registered_code img{
+  width: 100%;
+  height: 100%;
+}
+.registered_list{
+  padding-bottom: 1rem;
+}
+.registered .am-list-item {
+  min-height: 0.6rem !important;
+}
+.registered .am-list-extra{
+  flex-basis:60% !important;
+}
+.reg_haed_input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.registered .am-list-item img {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.reg_btn {
+  position: fixed;
+  -webkit-overflow-scroll:touch;
+  bottom: 0;
+  left: 5%;
+  z-index: 1;
+}
+.reg_bg{
+  width: 100%;
+  height: 1.875rem;
+  background: url("../../assets/reg_bg.png") no-repeat;
+  background-size: 100% auto;
+}
+.page5{
+  justify-content: space-evenly;
+}
+.page5 .am-button{
+  width: 44%;
+}
+.sub_btn{
+  width: 100%;
+  padding: .1rem 0;
+  margin: auto;
+  left: 0;
+  background: #ffffff;
+}

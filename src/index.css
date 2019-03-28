@@ -1,0 +1,433 @@
+html {
+  font-size: 625%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  background: #f2f2f2 !important;
+}
+.frame_holder {
+  width: 100%;
+  height: 100%;
+}
+.my_frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+select {
+  margin-left: 5%;
+  width: 90%;
+  height: 0.25rem;
+  border: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat
+    scroll right center transparent;
+  padding-right: 14px;
+}
+select::-ms-expand {
+  display: none;
+}
+p {
+  margin: 0;
+}
+/* * {touch-action: pan-y; } */
+.iframe-tab-1 {
+  width: 100vw;
+}
+.my-carousel ul {
+  height: 0.24rem !important;
+}
+.mbp {
+  margin-top: 0.1rem;
+  border-top: 1px solid #eeeeee;
+  padding-top: 0.1rem;
+}
+.eee {
+  background: #eeeeee;
+}
+.bf2 {
+  background: #f2f2f2;
+}
+.c666 {
+  color: #666666;
+}
+.c999 {
+  color: #999999;
+}
+.ceee {
+  color: #eeeeee;
+}
+.br {
+  border-radius: 0.1rem;
+}
+.bor329r {
+  border-right: 1px solid #3296fa;
+}
+.bor329 {
+  border: 1px solid #3296fa;
+}
+.c329 {
+  color: #3296fa;
+}
+.cfff {
+  color: #ffffff;
+}
+.cfa4 {
+  color: #fa4c32;
+}
+.cffa {
+  color: #ffad26;
+}
+.b329 {
+  border: 1px solid #3296fa;
+  border-radius: 0.05rem;
+}
+.backE6F{
+  background-color: #E6F2FF;
+  color: #3296fa;
+}
+.back329 {
+  background: #3296fa;
+  color: #ffffff;
+}
+.back5fa {
+  background: #5fab5d;
+  color: #ffffff;
+}
+.fs10 {
+  font-size: 0.1rem;
+}
+.fs13 {
+  font-size: 0.13rem;
+}
+.fs14 {
+  font-size: 0.14rem;
+}
+.fs15 {
+  font-size: 0.15rem;
+}
+.fs16 {
+  font-size: 0.16rem;
+}
+.fs17 {
+  font-size: 0.17rem;
+}
+.fs18 {
+  font-size: 0.18rem;
+}
+.fs20 {
+  font-size: 0.2rem;
+}
+.fs22 {
+  font-size: 0.22rem;
+}
+.fs24 {
+  font-size: 0.24rem;
+}
+.fs30 {
+  font-size: 0.3rem;
+}
+.fs50 {
+  font-size: 0.5rem;
+}
+.fn {
+  font-weight: normal;
+}
+.fb {
+  font-weight: bold;
+}
+.l1 {
+  line-height: 1;
+}
+.f2 {
+  background: #f2f2f2;
+  padding-bottom: 0.2rem;
+}
+.fff {
+  background: #fff;
+}
+.iframe-tab {
+  position: absolute;
+  top: 0.22rem;
+  z-index: 0;
+}
+.pr-foot {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-a-start {
+  align-items: start;
+}
+.flex-w {
+  flex-wrap: wrap;
+}
+.flex-j-sb {
+  justify-content: space-between;
+}
+.flex-j-end {
+  justify-content: flex-end;
+}
+.ofw {
+  overflow-wrap: break-word;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+.tac {
+  text-align: center;
+}
+.wpadding {
+  background: #ffffff;
+  padding: 0.1rem;
+}
+.wpadding3 {
+  background: #ffffff;
+  padding: 0 0.1rem 0.1rem;
+}
+.wpadding-b {
+  background: #ffffff;
+  margin-bottom: 0.1rem;
+}
+.text-cen {
+  text-align: center;
+}
+.scroll {
+  overflow: scroll;
+}
+.padding {
+  padding: 0.15rem;
+}
+.padding_trl {
+  padding: 0.15rem 0.15rem 0 0.15rem;
+}
+.margin-a {
+  margin: auto;
+}
+.margin-b {
+  margin-bottom: 0.1rem;
+}
+.margin-rsm {
+  margin-right: 0.05rem;
+}
+.margin-rs {
+  margin-right: 0.1rem;
+}
+.margin-ls {
+  margin-left: 0.1rem;
+}
+.margin-l {
+  margin-left: 0.2rem;
+}
+.margin-t {
+  margin-top: 0.1rem;
+}
+.margin-tl {
+  margin-top: 0.2rem;
+}
+.padding-tb {
+  padding: 0.1rem 0;
+}
+.padding-rsm {
+  padding-right: 0.05rem;
+}
+.padding-lsm {
+  padding-left: 0.05rem;
+}
+.padding-lr {
+  padding: 0 0.05rem;
+}
+.padding-l2 {
+  padding-left: 0.2rem;
+}
+.padding-l1 {
+  padding-left: 0.1rem;
+}
+.padding-l45 {
+  padding-left: 0.45rem;
+}
+.padding-l {
+  padding-left: 0.25rem;
+}
+.padding-bsm {
+  padding-bottom: 0.05rem;
+}
+.padding-xl {
+  padding: 0.1rem;
+}
+.padding-b {
+  padding-bottom: 0.1rem;
+}
+.padding-bs {
+  padding-bottom: 0.2rem;
+}
+.padding-txs {
+  padding-top: 0.05rem;
+}
+.padding-t {
+  padding-top: 0.1rem;
+}
+.padding-ts {
+  padding-top: 0.2rem;
+}
+.padding-tm {
+  padding-top: 0.3rem;
+}
+
+.padding-b6 {
+  padding-bottom: 0.6rem;
+}
+.por {
+  position: relative;
+}
+.w06 {
+  width: 0.6rem;
+}
+.wwb {
+  width: 100%;
+  word-wrap: break-word;
+}
+.poa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.lh1 {
+  line-height: 1;
+}
+.lh14 {
+  line-height: 1.4;
+}
+.bbeee {
+  border-bottom: 1px solid #eeeeee;
+}
+.bteee {
+  border-top: 1px solid #eeeeee;
+}
+.bt92 {
+  border-top: 0.1rem solid #eeeeee;
+}
+.top_list + .top_list {
+  border-top: 1px solid #eeeeee;
+}
+.w10 {
+  padding: 0.2rem 0;
+  width: 10%;
+  text-align: center;
+}
+.w1 {
+  width: 1rem;
+}
+.w7 {
+  width: 0.7rem;
+}
+.w15 {
+  width: 15%;
+}
+.w20 {
+  width: 20%;
+}
+.w25 {
+  width: 25%;
+}
+.w30 {
+  width: 30%;
+}
+.w50 {
+  width: 40%;
+}
+.w50 {
+  width: 50%;
+}
+.w60 {
+  width: 60%;
+}
+.w65 {
+  width: 65%;
+}
+.w70 {
+  width: 70%;
+}
+.w80 {
+  width: 80%;
+}
+.w85 {
+  width: 85%;
+}
+.w90 {
+  width: 90%;
+}
+.w100 {
+  width: 100%;
+}
+.text-t {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 2rem;
+}
+.text-h {
+  max-height: 1rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.text-s {
+  max-height: 1rem;
+  overflow: scroll;
+}
+.text-14 {
+  max-height: 0.15rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.am-toast-notice-content .am-toast-text {
+  color: white;
+}
+.am-list-body {
+  background: #ffffff;
+}
+.am-list-item .am-input-control input {
+  font-size: 16px;
+}
+.am-list-item + .am-list-item {
+  border-top: 1px solid #eeeeee;
+}
+.am-whitespace.am-whitespace-md {
+  background: #f2f2f2;
+}
+.address-footer-button-container {
+  color: #3296fa;
+}
+.historyAll .list-view-section-body .am-list-extra {
+  color: green;
+}
+.historyAll .list-view-section-body .am-list-thumb {
+  background-color: #3296fa;
+  border-radius: 50%;
+}
+.historyAll .list-view-section-body .am-list-thumb img {
+  width: 0.5rem;
+  height: 0.5rem;
+}

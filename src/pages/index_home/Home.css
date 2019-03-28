@@ -1,0 +1,691 @@
+#root{
+  -webkit-overflow-scroll:touch;
+}
+.home-container .am-tabs-tab-bar-wrap {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 9999;
+}
+.home-container .am-list-extra{
+  text-align: left !important;
+  flex-basis: 63% !important;
+}
+.time .am-tabs-tab-bar-wrap {
+  position: initial;
+}
+.am-tabs.am-tabs-horizontal.am-tabs-bottom {
+  padding-bottom: 0.5rem;
+}
+.am-navbar {
+  background-color: #f2f2f2 !important;
+  color: #000 !important;
+}
+.index_slider .am-slider-handle{
+  width: .3rem !important;
+  height: .3rem !important;
+  margin-top: -.15rem !important;
+}
+.payCheck{
+  width: .2rem;
+  height: .2rem;
+  margin-right: .1rem;
+}
+.doc{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  color: red;
+  font-size: .5rem;
+  line-height: .1;
+}
+.red {
+  border: none;
+  height: 0.1rem;
+  width: 0.1rem;
+  position: absolute;
+  top: 0.15rem;
+  right: 0.35rem;
+  color: red;
+}
+.my_title {
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  height: 0.45rem;
+  line-height: 0.45rem;
+}
+.goQuestion {
+  position: absolute;
+  top: 70vh;
+  right: 5%;
+  z-index: 2;
+}
+.goQuestion img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.padding_tb {
+  padding-top: 0.1rem;
+  padding-bottom: 0.01rem;
+}
+.index_tab {
+  width: 100%;
+  height: 44vh;
+}
+.index_icon {
+  position: relative;
+  width: 48%;
+  margin: 1%;
+  height: auto;
+  float: left;
+}
+.bg_w {
+  background: #fff;
+}
+.friend_list {
+  position: relative;
+  display: flex;
+  padding: 0.1rem;
+}
+.friend_list + .friend_list {
+  border-top: 1px solid #eeeeee;
+}
+.friend_list .head_img {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+.friend_list .friends_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 0.2rem;
+}
+.friend_list .friends_info .name {
+  color: #666666;
+  line-height: 1;
+  font-size: 0.14rem;
+  padding-top: 0.02rem;
+}
+.friend_list .friends_info .level {
+  display: flex;
+  align-items: center;
+  padding-top: 0.04rem;
+  padding-bottom: 0.05rem;
+}
+.friend_list .friends_info .level_img {
+  width: 0.15rem;
+  height: 0.15rem;
+}
+.friend_list .friends_info .level span {
+  color: #999999;
+  line-height: 1;
+  font-size: 0.12rem;
+  margin-left: 0.05rem;
+}
+.friends_accept {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.125rem;
+}
+.friends_accept button {
+  width: 0.65rem;
+  height: 0.35rem;
+  background: #4dd865;
+  border: none;
+  border-radius: 0.05rem;
+  color: #fff;
+}
+
+.question_tab {
+  background: #ffffff;
+  padding: 0.1rem 0;
+}
+.am-list-header {
+  font-size: 0.18rem;
+  background: #ffffff;
+  color: #000000;
+}
+.dialog-con {
+  position: fixed;
+  -webkit-overflow-scroll:touch;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.index_modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+.index_modal_close {
+  width: 0.15rem;
+  height: 0.15rem;
+  float: right;
+  margin: 0.1rem 0.1rem 0 0;
+}
+.index_modal_body {
+  text-align: center;
+  background: #fff;
+  margin: auto;
+  width: 90%;
+  margin-top: 50%;
+}
+.index_modal_lists {
+  display: flex;
+}
+.index_modal_title {
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 0.18rem;
+}
+.index_modal_list {
+  width: 33%;
+}
+.index_modal_body .head_img {
+  padding-top: 0.05rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: auto;
+}
+.friends_info .text {
+  margin-top: 0.1rem;
+  font-size: 0.13rem;
+  display: flex;
+  color: #999999;
+  justify-content: center;
+  align-items: center;
+}
+.index_follow {
+  width: 65%;
+  margin: 0.1rem auto 0.25rem !important;
+  padding: 0.02rem;
+  color: #000 !important;
+  font-size: 0.14rem !important;
+  margin-bottom: 0.2rem;
+  border: 1px solid #ff6762;
+  border-radius: 0.05rem;
+}
+.friends_info .level_img {
+  padding-right: 0.01rem;
+  width: 0.18rem;
+  height: 0.18rem;
+}
+.home_head {
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 50px;
+}
+.content_img {
+  width: 0.16rem;
+  height: 0.16rem;
+}
+.home_pay {
+  width: 0.9rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+/* 个人中心 */
+.my_content {
+  width: 100%;
+  height: 1.7rem;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.my_order_list {
+  position: absolute;
+  bottom: -45%;
+  left: 5%;
+  width: 90%;
+  background: #ffffff;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.my_top_icon {
+  width: 100%;
+  height: 100%;
+  padding: 0.2rem 0;
+}
+.my_top_icon img {
+  width: 0.4rem;
+}
+.my_top_icon div {
+  font-size: 0.12rem;
+  padding-top: 0.1rem;
+}
+.my_profile_list {
+  padding-top: 0.9rem;
+}
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+  padding: 0;
+}
+.am-grid.am-grid-square .am-grid-item:before {
+  padding-bottom: 80%;
+}
+.my_bg {
+  background: url("../../assets/my_top_bg.png") no-repeat;
+  background-size: 100% auto;
+}
+.my_haed {
+  position: relative;
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 0.35rem;
+}
+.my_haed img {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 0.5rem;
+}
+.my_info_container {
+  color: #fff;
+  float: left;
+  margin-top: 0.5rem;
+  margin-left: 0.35rem;
+  text-align: left;
+}
+.my_level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.05rem;
+}
+.my_level img {
+  width: 0.18rem;
+  height: 0.18rem;
+}
+.my_haed_input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  overflow: hidden;
+}
+.my_nickname {
+  font-size: 0.14rem;
+}
+.my_nickname div {
+  font-size: 0.32rem;
+}
+.my_info_friends {
+  display: flex;
+  align-items: center;
+  height: 0.7rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  box-shadow: 0 2px 20px 0 #ffddd7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.my_friends {
+  padding: 0.1rem 0;
+  width: 50%;
+}
+.my_friends div {
+  margin-top: 0.05rem;
+}
+.after::after {
+  content: "";
+  border-right: 1px solid #d8d8d8;
+  position: relative;
+  right: 50%;
+  margin: 0.05rem 0;
+}
+.profile_list .am-list-item,
+.friendsLog .am-list-item {
+  height: 0.6rem;
+}
+.viewheight {
+  height: calc(56vh - 149px);
+}
+.content-item-border + .content-item-border {
+  border: 1px solid #eeeeee;
+}
+/* 交友记录 */
+.friendsLog .am-list-item img {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.home-banner {
+  height: 1.8rem;
+}
+.tab {
+  width: 90%;
+  margin: 0.15rem auto 0;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid;
+  border-radius: 0.1rem;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  letter-spacing: -0.17px;
+  text-align: center;
+}
+.tab div {
+  width: 50%;
+  padding: 0.1rem 0;
+}
+.tabA {
+  border-radius: 0.06rem 0 0 0.06rem;
+  background: #000000;
+  color: #fff;
+}
+.tabB {
+  border-radius: 0 0.06rem 0.06rem 0;
+  background: #000000;
+  color: #fff;
+}
+.input_phone_bg {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+.input_phone {
+  position: absolute;
+  width: 60%;
+  padding: 0 0.1rem;
+  background: #fff;
+  top: 45%;
+  left: 16%;
+  z-index: 102;
+}
+/* 提问 */
+.label {
+  width: 90%;
+  margin: auto;
+}
+.list {
+  width: 100%;
+  height: 0.3rem;
+  background: #fff;
+  color: #000;
+  border-bottom: 1px solid #eeeeee;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+}
+.tag {
+  padding: 0 0.13499rem;
+  height: 0.34rem;
+  margin: 0.05rem 0.05rem;
+  line-height: 0.34rem;
+  text-align: center;
+  background: #f2f2f2;
+  color: #000000;
+}
+.tag span {
+  padding-left: 15px;
+}
+.question_btn0 {
+  margin: 0.1rem auto;
+  background-color: transparent;
+}
+.question_btn {
+  width: 90%;
+  margin: 0.1rem auto;
+}
+.question_btn button {
+  width: 100%;
+  border-radius: 3px;
+  line-height: 0.5rem;
+  height: 0.5rem;
+  font-size: 0.18rem;
+  background: #3296fa;
+  color: #ffffff;
+}
+.question_hot_list {
+  background: #ffffff;
+  width: 100%;
+  height: 0.5rem;
+  padding: 0.15rem;
+  line-height: 1.3;
+}
+.question_checkbox {
+  float: left;
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-right: 0.2rem;
+  background: url("../../assets/question_set_no.png") no-repeat;
+  background-size: 0.2rem 0.2rem;
+}
+.set_checkbox {
+  background: url("../../assets/question_set.png") no-repeat;
+  background-size: 0.2rem 0.2rem;
+}
+.question_showlist {
+  float: right;
+  width: 0.13rem;
+  height: 0.08rem;
+  margin-top: .06rem;
+  background: url("../../assets/list_down.png") no-repeat;
+  background-size: 0.13rem 0.08rem;
+}
+.close_showlist {
+  background: url("../../assets/list_up.png") no-repeat;
+  background-size: 0.13rem 0.08rem;
+}
+/* 一对一 */
+.vh61os{
+  height: 61vh;
+  overflow: scroll;
+}
+.oono {
+  position: relative;
+  height: auto;
+  padding: 0.1rem 0;
+}
+.oono_head img {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.1rem;
+}
+.oono_name img {
+  width: 0.15rem;
+  height: 0.15rem;
+}
+.oono_label {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+.oono + .oono {
+  border-top: 1px solid #eeeeee;
+}
+.oono_btn {
+  position: absolute;
+  top: 63vh;
+  left: 5%;
+  z-index: 2;
+}
+.oono_tag {
+  width: 30%;
+  margin: 0.05rem 0.05rem;
+  line-height: 0.34rem;
+  text-align: center;
+  background: #f2f2f2;
+  color: #000000;
+}
+.oono_tag span {
+  padding-left: 15px;
+}
+.oono_foot_bottom {
+  padding-bottom: 1rem;
+}
+/* 代金券 */
+.coupon_container {
+  background: #f2f2f2;
+}
+.coupon_list {
+  width: 100%;
+  height: 1rem;
+}
+.coupon_can {
+  background: url("../../assets/coupon_can.png") no-repeat;
+  background-size: 100% auto;
+}
+.coupon_not {
+  background: url("../../assets/coupon_not.png") no-repeat;
+  background-size: 100% auto;
+}
+/* 推广 */
+.extension_content {
+  width: 100%;
+  height: 2rem;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.extension_bg {
+  background: url("../../assets/extension_top.png") no-repeat;
+  background-size: 100% auto;
+}
+/* 二维码 */
+.code_bg {
+  text-align: center;
+  margin: 0.5rem auto;
+  width: 2.9rem;
+  height: 4.35rem;
+  background: url("../../assets/code_bg.png") no-repeat;
+  background-size: 100% auto;
+}
+.code_img img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.QR_code {
+  padding-top: 0.7rem;
+}
+/* 关于我们 */
+.about_title {
+  padding-top: 0.4rem;
+}
+.about_img {
+  width: 100%;
+  height: 1.94rem;
+}
+.about_img img {
+  width: 100%;
+  height: 100%;
+}
+.about_name {
+  text-align: right;
+}
+/* 我的订单 */
+.questionList_head {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50px;
+}
+.order_type {
+  display: inline-block;
+  width: 0.44rem;
+  height: 0.18rem;
+  line-height: 0.18rem;
+  text-align: center;
+}
+.order_pay .am-list-extra {
+  flex-basis: 40% !important;
+}
+/* 代金券 */
+.list-view-section-body {
+  background-color: #f2f2f2;
+}
+.coupon_get_top {
+  width: 100%;
+  height: 2.1rem;
+}
+.coupon_bg {
+  background: url("../../assets/coupon_get.png") no-repeat;
+  background-size: 100% auto;
+}
+/* 详情 */
+.orderList_pay {
+  padding: 0 0.1rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+.btn_not {
+  background: #e5e5e5;
+  color: #bbbbbb;
+  border-radius: 0.05rem;
+}
+.details_headimg img {
+  width: 0.35rem;
+  height: 0.35rem;
+}
+.details_star img {
+  width: 0.13rem;
+  height: 0.13rem;
+}
+.set_star img {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+/* 协议 */
+.agreement_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+.agreement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  overflow: scroll;
+  margin: 15% 10%;
+  background: #fff;
+  z-index: 1001;
+}
+/*  */
+.first_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+.first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: auto;
+  margin: 30% 15%;
+  background: #fff;
+  z-index: 10000;
+}
+.first img {
+  width: 100%;
+}
+.runAnwser+.runAnwser {
+  margin-top: .1rem;
+  border-top: 1px solid #eeeeee;
+  padding-top: .1rem;
+}
+.mbp img{
+  width: 100% !important;
+  height: 100% !important;
+}
